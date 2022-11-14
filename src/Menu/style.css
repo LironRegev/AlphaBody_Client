@@ -1,0 +1,45 @@
+.MenuPageWrapper {
+  position: relative;
+  padding: 10px 0px;
+  left: -8rem;
+}
+.AlphaBodyFade {
+  opacity: 3%;
+  position: relative;
+  top: -600px;
+}
+.Menu-Discription {
+  position: relative;
+  left: 0rem;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.BMR {
+  position: relative;
+  left: 15rem;
+  color: rgb(51, 51, 248);
+  font-weight: bold;
+}
+
+.MenuButton {
+  border-color: black;
+  margin-right: 1.5rem;
+  margin-top: 0 !important;
+}
+
+.menu-table {
+  background: white;
+}
+.meal-time {
+  color: red;
+  font-size: x-large;
+  font-weight: bolder;
+}
+.meal-total-row {
+  color: blue;
+}
+.menu-total-row {
+  color: blue;
+  font-size: larger;
+}

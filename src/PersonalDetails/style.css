@@ -1,0 +1,72 @@
+.transition {
+  transition: (all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5));
+}
+
+.PersonalDetailsWrapper {
+  position: relative;
+  display: inline-block;
+  max-width: 700px;
+  min-width: 500px;
+  box-sizing: border-box;
+  height: fit-content;
+  padding: 0px 0px;
+  background-color: rgb(0, 0, 0);
+  border-radius: -100px;
+  margin-left: 6vw;
+}
+h1 {
+  position: relative;
+  left: -1rem;
+  white-space: nowrap;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+button {
+  margin-top: 35px;
+  background-color: #1161ee;
+  border: 1px solid rgb(255, 255, 255);
+  line-height: 0;
+  font-size: 17px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px 15px;
+  border-radius: 60px;
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  position: relative;
+  z-index: 1;
+}
+
+input[type="text"] {
+  appearance: none;
+  background-color: none;
+  border: 3px solid rgb(87, 87, 87);
+  line-height: 0;
+  font-size: 17px;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  border-radius: 60px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  letter-spacing: 0.01em;
+  z-index: 1;
+}
+.input:focus {
+  outline: none;
+  background: rgb(128, 128, 128);
+  color: white;
+  margin-top: 0px;
+}
+
+:focus ~ label {
+  translate: (0, -35px);
+}
+:valid ~ label {
+  transform: (translate(5px, -35px) scale(0.6));
+}
